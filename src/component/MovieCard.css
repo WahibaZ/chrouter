@@ -1,0 +1,70 @@
+
+.movie-card-container {
+    background-color: #504e4e;
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+    color:white;
+    
+    
+  }
+
+.movie-card {
+   background: #292929;
+   border: 1px solid rgb(145, 141, 141) ;
+   border-radius: 2%;
+   width: 50%;
+   padding: 1%;
+   
+  }
+  .movie-card img {
+    width: 100%;
+    height: 40%;
+    border-radius: 8px;
+  }
+  .row {
+    display: flex;
+    justify-content: center; 
+    align-items: center; /* Aligne les éléments verticalement au centre */
+    
+  }
+  .r {
+    
+    background: #b6afaf;
+    font-weight: bold;
+    height: 1%;
+    width: 4%;
+  }
+  
+  .hd {
+     
+    background: #252525;
+    font-weight: bold;
+    height: 1%;
+    width: 4%;
+  }
+  .movie-card-button{
+    border: 1px solid rgb(145, 141, 141) ;
+    border-radius: 5%;
+    width: 50%;
+    height: 20%;
+    font-weight: bold;
+    color: aliceblue;
+    background-color: #504e4e;
+  }
+  .categories {
+    display:flex;
+   justify-content: space-around;
+   font-weight: bold;
+   margin-top: 4%;
+   margin-bottom:4% ;
+  }
+  .categories a {
+    color: white; /* Définit la couleur du texte des liens en blanc */
+    text-decoration: none; /* Supprime le soulignement par défaut des liens */
+  }
+  
+  .categories a.active {
+    color: #5c0af5; /* Couleur des liens actifs */
+    text-decoration: underline; /* Ajoute un soulignement aux liens actifs */
+  }
